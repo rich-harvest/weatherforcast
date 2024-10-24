@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Color Change Example</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 0.5s;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        div {
+            
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        /* button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s;
+            margin-bottom: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        } */
+        table {            
+            margin-top: 20px;
+            width: 327px;
+            height: 59px;
+        }
+      
+        th, td {           
+            padding: 10px;
+            text-align: center;
+        }
+       
+        .image-active {
+            margin-top: 20px;
+            width: 80px; /* Adjust as needed */
+            height: 22px;
+        }
+        .image-symbol {
+            margin-top: 20px;
+            width: 123px; /* Adjust as needed */
+            height: 113px;
+        }
+        .image-graph {
+            margin-top: 20px;
+            width: 290px; /* Adjust as needed */
+            height: 99px;
+        }
+        input {
+            width: 327px; /* Set the width of the input */
+            height: 46px; /* Set the height of the input */
+            padding: 5px; /* Add padding for better spacing */
+            font-size: 16px; /* Control the font size */
+            margin-bottom: 10px; /* Space below the input */
+            border: 1px solid #ccc; /* Border style */
+            border-radius: 15px; /* Rounded corners */
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+        
+      
+    </style>
+</head>
+<body>
+    <!-- <button id="colorButton">Change Background Color</button>
+    <p>Click the button above to change the background color randomly!</p> -->
+    <form action="" method="">
+        <input type="text" id="Location" name="Location" autofocus placeholder="Search Location">        
+    </form>    
+    <img src="active.png" class = "image-active"  alt="active.png">
+    <img src="symbol.png" class = "image-symbol"  alt="symbol.png"><br>
+    <h1>Hyderabad</h1>
+    <h1>31</h1>
+  <!-- <img src="arrow.png"><br> -->
+    <table>
+        <thead>
+            <tr>
+                <th>TIME</th>
+                <th>UV</th>
+                <th>%RAIN</th>
+                <th>AQ</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>            
+            </tr>
+        </thead>
+        <tbody>
+           
+        </tbody>
+    </table>
+    <div>
+        <p>SUNRISE & SUNSET</p>
+        <img src="graph.png" class = "image-graph"  alt="graph.png">
+        <p >length of day:</p>
+        <p >Remaining daylight:</p><br>
+    </div>
+    
+    
+    <!-- <script>
+        // const button = document.getElementById('colorButton');
+        // const colors = ['#ff5733', '#33ff57', '#3357ff', '#f0f0f0'];
+
+        // button.addEventListener('click', () => {
+        //     const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        //     document.body.style.backgroundColor = randomColor;
+        // });
+    </script> -->
+</body>
+</html>
