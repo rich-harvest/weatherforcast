@@ -1,0 +1,76 @@
+Week Description
+During the course of one week, the personal project will be broken down into manageable tasks that will help in the development of a fully functional basic frontend weather forecast application using HTML, CSS, JavaScript, and Git. The app will fetch weather data from public and freely available APIs, allowing users to view current weather conditions and a 5-day forecast for their desired location.
+
+Day 1: Project setup and HTML structure Day 2: CSS styling for responsive and visually appealing design Day 3: JavaScript integration to fetch data from public weather APIs Day 4: Implement search functionality and geolocation support Day 5: Add unit toggle feature and test the application Day 6: Bug fixing, refining, and optimizing the code Day 7: Final review, documentation, and deployment to a platform like GitHub
+
+Also, for the first time, you will publish a project using Github Pages so that everyone can see your project and interact with it.
+
+Why It Matters
+This personal project matters for several reasons:
+
+Skill development: By working on this project, you will be able to enhance your frontend development skills in HTML, CSS, and JavaScript. You will gain a deeper understanding of API integration, responsive web design, and user experience.
+
+Portfolio building: Having a completed project like a weather forecast app in your portfolio showcases your skills in frontend development and your ability to work with APIs. This can be valuable when seeking job opportunities or freelance work.
+
+Version control proficiency: Utilizing Git for version control throughout the project allows you to gain experience in tracking changes, collaborating with others, and managing code. This skill is essential for any developer in the industry.
+
+Personal satisfaction: Completing a personal project from start to finish is a rewarding experience. It not only demonstrates your dedication and perseverance but also helps boost your confidence as a developer.
+
+Practical application: A weather forecast app is a useful tool for users to access weather information quickly and easily. By creating an intuitive and visually appealing app, you contribute to the daily lives of potential users.
+
+Week tasks
+Project Brief: The main goal of this personal project is to create a fully functional basic frontend weather forecast application using HTML, CSS, JavaScript, and Git. The app will fetch weather data from public and freely available APIs and display the information in a visually appealing and user-friendly manner.
+
+
+Objective:
+Develop an understanding of API integration using JavaScript.
+Enhance frontend development skills (HTML, CSS, JavaScript).
+Gain experience in version control using Git.
+
+
+Requirements:
+HTML - Create a responsive and accessible webpage layout.
+CSS - Style the webpage, making it visually appealing and responsive.
+JavaScript - Fetch and process data from public weather APIs, and implement custom logic to present the data.
+Git - Use Git for version control, and host the project on a platform like GitHub.
+
+
+Features:
+Current weather - Display the current temperature, weather condition, humidity, and wind speed.
+Weather forecast - Show a 5-day weather forecast with daily high and low temperatures and weather conditions.
+Search functionality - Allow users to search for weather information by city or ZIP code.
+Geolocation - Automatically fetch the weather data for the user's current location.
+Units toggle - Enable users to switch between Celsius and Fahrenheit temperature units.
+
+
+APIs:
+OpenWeatherMap API (https://openweathermap.org/api) - Fetch weather data for the current conditions and 5-day forecast.
+LocationIQ API (https://locationiq.com/) - Convert user's input (city or ZIP code) into coordinates for OpenWeatherMap API.
+
+
+Workflow:
+Set up the project structure and initialize a Git repository.
+Create the HTML layout and style it with CSS.
+Implement JavaScript logic to fetch and process data from the APIs.
+Add search functionality and geolocation support.
+Implement unit toggle and test the application.
+Regularly commit changes to the Git repository and push to a remote platform like GitHub.
+
+
+Workflow:
+A responsive weather forecast application that fetches data from public APIs.
+The project hosted on a platform like GitHub, using Git for version control.
+UI and Design files: If you don't know what Design to use, you can take a look at this free Figma file
+
+Tasks
+ Create the weather project using all the knowledge you gained
+ Create a video of the project or a Linkedin carousel
+ Publish the code on Github and gain at least a Pull Request from a peer
+ Host the project on Github Pages
+ Watch How to Put a Website Online: Template, Coding, Domain, Hosting, and DNS
+
+=====================================
+ From: Luis (**MATH**/DESKTOP-QAHMTI6/192.168.118.124/kinoa-<9fce37133a8dfc36>)
+   Cc: Lam (**MATH**/DESKTOP-O0HDNQD/192.168.118.123/1-<3294876941def8c9>)
+  at Tue Oct 22 10:49:11 2024
+-------------------------------------

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather Application</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
+
+</head>
+<body>
+    <video id = "video-background" autoplay muted loop>
+        <source src = "images/1.mp4" type = "video/mp4" alt = "images/1.mp4">      
+    </video>
+    <div class = "card">
+        <div class = "search">
+            <input type = "text" name = "Location" id = "Location" placeholder = "Search Location" >
+            <button><img src = "images/search.png" alt = "search.png"></button>
+        </div>
+        
+        <div class = "weather">
+            <img src = "images/rain.png" class = "weather-icon">
+            <div class = "city">
+                <h2>unknown</h2>
+               
+            </div>
+            
+            <h1 class = "temp">0</h1>
+        </div>
+
+        <div class = "table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>TIME</th>
+                        <th>HUMIDITY</th>
+                        <th>WIND</th>                       
+                    </tr>
+                    <tr>
+                        <th class = "time">0</th>
+                        <th class = "humidity">0</th>
+                        <th class = "wind">0</th>                            
+                    </tr>
+                </thead>
+                <tbody>               
+                </tbody>
+            </table>
+        </div>
+ 
+        <div class = "sunrise">
+            <p>SUNRISE & SUNSET</p>
+            <img src="images/graph.png" class = "image-graph"  alt="graph.png">
+            <p >length of day:</p>
+            <p >Remaining daylight:</p><br>
+        </div>  
+</div>
+
+<script src = "script.js"></script>
+</body>
+</html>
